@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/animals.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/animals.js"></script>
     <title>Animal Wiki</title>
@@ -15,26 +15,31 @@
         <li role="presentation" class="active"><a href="animal.html">Animal Wiki</a></li>
         <li role="presentation"><a href="park.html">Amusement Park</a></li>
       </ul>
+      <div class="jumbotron">
+        <h1>Animal Wiki</h1>
+      </div>
       <div class="well">
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="Frogs" checked>
-            Frogs
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="Snakes">
-            Snakes
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="animal" value="Insects">
-            Insects
-          </label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit!</button>
+        <form id="radio">
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="Frogs">
+              Frogs
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="Snakes" checked>
+              Snakes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="Insects">
+              Insects
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit!</button>
+        </form>
 
       </div>
 
