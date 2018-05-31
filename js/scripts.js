@@ -13,7 +13,7 @@ $(document).ready(function() {
     $('.well').show();
   };
 
-  if (age > 18) {
+  if (age >= 18) {
     $('#voting').show();
     $('.well').show();
   } else {
