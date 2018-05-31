@@ -1,3 +1,11 @@
 #drinks, #under-21 {
   display: none;
 }
+
+#voting, #under-18 {
+  display: none;
+}
+
+.well {
+  display: none;
+}
