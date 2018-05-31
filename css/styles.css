@@ -12,3 +12,9 @@
 #frogs {
   display: none;
 }
+body {
+  font-family: verdana;
+}
+img {
+  margin: 20px;
+}
